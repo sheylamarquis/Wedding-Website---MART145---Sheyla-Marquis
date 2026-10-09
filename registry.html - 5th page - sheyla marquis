@@ -1,0 +1,55 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registry &amp; FAQs | Wedding 2028</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Gift Registry &amp; Guest FAQs</h1>
+            
+		<div class="headerWrapper">
+            <div class="navbar">
+                <ul>	
+					<li><a href="index.html">Home</a></li>
+					<li><a href="ourstory.html">Our Story</a></li>
+					<li><a href="schedule.html">Schedule &amp; Event Details</a></li>
+					<li><a href="travel.html">Travel &amp; Accommodations</a></li>
+					<li><a href="registry.html">Registry &amp; FAQs</a></li>
+				</ul>
+			</div>
+		</div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Gift Registries</h2>
+            <img src="Gift.jpg.JPG" alt="Gift boxes wrapped in ribbon and flowers" style="width: 673px; max-width: 100%; height: auto;">
+            <p>Your presence at our wedding is the greatest gift of all! However, if you wish to honor us with a gift, we have registered at the following places:</p>
+            <ul>
+                <li><a href="https://www.target.com" target="_blank" rel="noopener">Target Registry</a></li>
+                <li><a href="https://www.crateandbarrel.com" target="_blank" rel="noopener">Crate &amp; Barrel Registry</a></li>
+                <li><a href="https://www.zola.com" target="_blank" rel="noopener">Honeymoon Cash Fund on Zola</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <h3>Can I bring a plus one?</h3>
+            <p>Please check your formal invitation envelope for named guests and plus-one allocations.</p>
+
+            <h3>Are children invited?</h3>
+            <p>We love your kids, but we have decided to keep our ceremony and reception an adults-only event.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="index.html">&laquo; Return to Home</a></p>
+    </footer>
+
+</body>
+</html>

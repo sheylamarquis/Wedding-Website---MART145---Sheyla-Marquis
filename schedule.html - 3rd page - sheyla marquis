@@ -1,0 +1,59 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule &amp; Event Details | Wedding 2028</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Weekend Schedule</h1>
+       
+		<div class="headerWrapper">
+            <div class="navbar">
+                <ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="ourstory.html">Our Story</a></li>
+					<li><a href="schedule.html">Schedule &amp; Event Details</a></li>
+					<li><a href="travel.html">Travel &amp; Accommodations</a></li>
+					<li><a href="registry.html">Registry &amp; FAQs</a></li>
+				</ul>
+			</div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Wedding Day Timeline</h2>
+            <img src="Holdinghands.jpg.JPEG" alt="Couple holding hands with sun in background" style="width: 658px; max-width: 100%; height: auto;">
+
+            <h3>Ceremony</h3>
+            <ul>
+                <li><strong>Time:</strong> 4:00 PM</li>
+                <li><strong>Location:</strong> Copper Road Ranch</li>
+                <li><strong>Dress Code:</strong> Semi-Formal / Cocktail Attire</li>
+            </ul>
+
+            <h3>Cocktail Hour</h3>
+            <ul>
+                <li><strong>Time:</strong> 5:00 PM - 6:30 PM</li>
+                <li><strong>Details:</strong> Drinks and hors d'oeuvres outdoor terrace</li>
+            </ul>
+
+            <h3>Reception &amp; Dinner</h3>
+            <ul>
+                <li><strong>Time:</strong> 6:30 PM - 11:00 PM</li>
+                <li><strong>Details:</strong> Dinner, toasts, and dancing!</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="index.html">&laquo; Return to Home</a></p>
+    </footer>
+
+</body>
+</html>
