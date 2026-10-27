@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Registration &amp; RSVP | Wedding 2028</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Guest Registration &amp; RSVP</h1>
+        <p>Please register your attendance for our August 2028 celebration!</p>
+        
+        <div class="headerWrapper">
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ourstory.html">Our Story</a></li>
+                    <li><a href="schedule.html">Schedule &amp; Details</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="registry.html">Registry</a></li>
+                    <li><a href="register.html">RSVP Form</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Event Registration Form</h2>
+            <p>Fill out the fields below to submit your RSVP and meal preferences. This form uses the <code>GET</code> method so you can observe the query string in your browser's address bar when submitted.</p>
+
+            <!-- Registration Form Structure -->
+            <form action="register.html" method="GET">
+                
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" value="" required><br><br>
+
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" value="" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email" value=""><br><br>
+
+                <label for="attendance">Will you attend?</label><br>
+                <select id="attendance" name="attendance">
+                    <option value="yes">Joyfully Accept</option>
+                    <option value="no">Decline with Regret</option>
+                </select><br><br>
+
+                <label for="meal">Meal Preference:</label><br>
+                <select id="meal" name="meal">
+                    <option value="chicken">Herb Roasted Chicken</option>
+                    <option value="beef">Grilled Filet Mignon</option>
+                    <option value="vegetarian">Wild Mushroom Risotto (Vegetarian)</option>
+                </select><br><br>
+
+                <label for="notes">Dietary Restrictions or Notes:</label><br>
+                <input type="text" id="notes" name="notes" value="" style="width: 100%; max-width: 400px;"><br><br>
+
+                <input type="submit" value="Submit RSVP" style="background-color: #4a627a; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="index.html">&laquo; Return to Home</a></p>
+    </footer>
+
+</body>
+</html>
